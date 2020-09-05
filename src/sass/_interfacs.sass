@@ -1,5 +1,6 @@
 @import 'fonts'
-
+*
+   box-sizing: border-box
 body
    +reg
    
@@ -28,6 +29,28 @@ ul
    font-size: 13px;
    // line-height: 1.2;
    font-weight: 700;
+   &:hover
+      background-color: lighten($main-color, 10%)
+      cursor: pointer
+.section
+   padding: 90px 0
+   &-title
+      font-size: 24px;
+      +bold
+      // line-height: 35px;
+   &-subtitle
+      font-size: 16px;
+      display: block
+      // line-height: 1.2;
+.input
+   // width: 240px;
+   // height: 65px;
+   border: 1px solid $border-input;
+   border-radius: 10px;
+   padding: 20px 26px
+   font-size: 15px
+
+
 
 
 
