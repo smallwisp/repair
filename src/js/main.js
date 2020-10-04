@@ -10,3 +10,10 @@ button.addEventListener('click', function() {
 close.addEventListener('click', function () {
    modal.classList.remove('modal_active');
 });
+
+/* Сбром модального окна фнкцией setTimeout
+function clearBox() {
+   modal.classList.remove('modal_active');
+}
+
+setTimeout(clearBox, 5000); */
